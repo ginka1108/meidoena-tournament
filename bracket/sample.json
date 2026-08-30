@@ -1,0 +1,3838 @@
+{
+ "rev": 42,
+ "updatedAt": "2026-08-30T04:31:22",
+ "tournament": {
+  "name": "明戸杯2026",
+  "date": "2026-01-01",
+  "subtitle": "128人麻雀トーナメント",
+  "currentRound": "R4",
+  "champion": ""
+ },
+ "blocks": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "seats": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "rounds": [
+  {
+   "id": "R1",
+   "name": "1回戦",
+   "short": "1回戦",
+   "entrants": 128,
+   "advance": 2,
+   "tables": 32,
+   "done": 32,
+   "ready": 32
+  },
+  {
+   "id": "R2",
+   "name": "2回戦",
+   "short": "2回戦",
+   "entrants": 64,
+   "advance": 2,
+   "tables": 16,
+   "done": 16,
+   "ready": 16
+  },
+  {
+   "id": "R3",
+   "name": "3回戦",
+   "short": "3回戦",
+   "entrants": 32,
+   "advance": 2,
+   "tables": 8,
+   "done": 8,
+   "ready": 8
+  },
+  {
+   "id": "R4",
+   "name": "準決勝",
+   "short": "準決勝",
+   "entrants": 16,
+   "advance": 1,
+   "tables": 4,
+   "done": 0,
+   "ready": 4
+  },
+  {
+   "id": "R5",
+   "name": "決勝",
+   "short": "決勝",
+   "entrants": 4,
+   "advance": 1,
+   "tables": 1,
+   "done": 0,
+   "ready": 0
+  }
+ ],
+ "tables": [
+  {
+   "id": "R1-A1",
+   "round": "R1",
+   "block": "A",
+   "label": "A-1",
+   "order": 1,
+   "advance": 2,
+   "next": "R2-A1",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "125124366",
+     "name": "真夏のかき氷",
+     "from": "",
+     "games": 1,
+     "pt": -16.7,
+     "score": 20290,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "79123918",
+     "name": "役満夢追人",
+     "from": "",
+     "games": 1,
+     "pt": 9.5,
+     "score": 32508,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "23338657",
+     "name": "木几乂",
+     "from": "",
+     "games": 1,
+     "pt": 53.5,
+     "score": 48530,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "125832768",
+     "name": "テっシー",
+     "from": "",
+     "games": 1,
+     "pt": -37.3,
+     "score": 13693,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-A2",
+   "round": "R1",
+   "block": "A",
+   "label": "A-2",
+   "order": 2,
+   "advance": 2,
+   "next": "R2-A1",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "134188750",
+     "name": "Jerryyyyyyyyy",
+     "from": "",
+     "games": 1,
+     "pt": -15.2,
+     "score": 21796,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "86075591",
+     "name": "城口",
+     "from": "",
+     "games": 1,
+     "pt": 2.6,
+     "score": 25604,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "87997062",
+     "name": "狩り隊",
+     "from": "",
+     "games": 1,
+     "pt": 52.1,
+     "score": 47094,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "97306182",
+     "name": "ヒロ5744",
+     "from": "",
+     "games": 1,
+     "pt": -41.7,
+     "score": 9257,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-A3",
+   "round": "R1",
+   "block": "A",
+   "label": "A-3",
+   "order": 3,
+   "advance": 2,
+   "next": "R2-A2",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "117455113",
+     "name": "CheshireCat",
+     "from": "",
+     "games": 1,
+     "pt": 46.6,
+     "score": 41614,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "93358853",
+     "name": "燕羽そばや",
+     "from": "",
+     "games": 1,
+     "pt": 2.6,
+     "score": 25586,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "132244876",
+     "name": "サカタ2",
+     "from": "",
+     "games": 1,
+     "pt": -36.3,
+     "score": 14657,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "141683343",
+     "name": "calloll",
+     "from": "",
+     "games": 1,
+     "pt": -17.8,
+     "score": 19196,
+     "rank": 3,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-A4",
+   "round": "R1",
+   "block": "A",
+   "label": "A-4",
+   "order": 4,
+   "advance": 2,
+   "next": "R2-A2",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "88573188",
+     "name": "メタボ猫男爵",
+     "from": "",
+     "games": 1,
+     "pt": 53.8,
+     "score": 48820,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "134412620",
+     "name": "vhunter",
+     "from": "",
+     "games": 1,
+     "pt": -36.1,
+     "score": 14924,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "107022982",
+     "name": "リボン4968",
+     "from": "",
+     "games": 1,
+     "pt": -19.4,
+     "score": 17589,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "91330179",
+     "name": "真GOゼンツ",
+     "from": "",
+     "games": 1,
+     "pt": 2.9,
+     "score": 25924,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-A5",
+   "round": "R1",
+   "block": "A",
+   "label": "A-5",
+   "order": 5,
+   "advance": 2,
+   "next": "R2-A3",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "83270541",
+     "name": "holy神go",
+     "from": "",
+     "games": 1,
+     "pt": 46.9,
+     "score": 41947,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "81797323",
+     "name": "あきぼーちゃん",
+     "from": "",
+     "games": 1,
+     "pt": 1.5,
+     "score": 24507,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "136644226",
+     "name": "OE板",
+     "from": "",
+     "games": 1,
+     "pt": -14.1,
+     "score": 22919,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "120496462",
+     "name": "TAKAII",
+     "from": "",
+     "games": 1,
+     "pt": -41.8,
+     "score": 9212,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-A6",
+   "round": "R1",
+   "block": "A",
+   "label": "A-6",
+   "order": 6,
+   "advance": 2,
+   "next": "R2-A3",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "82031876",
+     "name": "ヤマグチしはす",
+     "from": "",
+     "games": 1,
+     "pt": -36.5,
+     "score": 14505,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "122316225",
+     "name": "mミュウm",
+     "from": "",
+     "games": 1,
+     "pt": -17.3,
+     "score": 19720,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "139463374",
+     "name": "ますろー@MSR",
+     "from": "",
+     "games": 1,
+     "pt": 2.1,
+     "score": 25140,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "135292494",
+     "name": "磨斧まふー",
+     "from": "",
+     "games": 1,
+     "pt": 52,
+     "score": 46971,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-A7",
+   "round": "R1",
+   "block": "A",
+   "label": "A-7",
+   "order": 7,
+   "advance": 2,
+   "next": "R2-A4",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "87888265",
+     "name": "tetsu;",
+     "from": "",
+     "games": 1,
+     "pt": -33.9,
+     "score": 17138,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "98524483",
+     "name": "おじさん応援団",
+     "from": "",
+     "games": 1,
+     "pt": 2.4,
+     "score": 25424,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "116239178",
+     "name": "ドローレスの猫",
+     "from": "",
+     "games": 1,
+     "pt": 50.5,
+     "score": 45547,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "80332558",
+     "name": "おとしんぐ",
+     "from": "",
+     "games": 1,
+     "pt": -16.1,
+     "score": 20892,
+     "rank": 3,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-A8",
+   "round": "R1",
+   "block": "A",
+   "label": "A-8",
+   "order": 8,
+   "advance": 2,
+   "next": "R2-A4",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "85219592",
+     "name": "たなか教祖",
+     "from": "",
+     "games": 1,
+     "pt": 47.1,
+     "score": 42071,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "120556557",
+     "name": "osm258",
+     "from": "",
+     "games": 1,
+     "pt": -17.8,
+     "score": 19232,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "125720526",
+     "name": "七菜七々",
+     "from": "",
+     "games": 1,
+     "pt": -33.7,
+     "score": 17284,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "134750923",
+     "name": "yoru_013",
+     "from": "",
+     "games": 1,
+     "pt": 5.9,
+     "score": 28869,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-B1",
+   "round": "R1",
+   "block": "B",
+   "label": "B-1",
+   "order": 9,
+   "advance": 2,
+   "next": "R2-B1",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "22152609",
+     "name": "牌神保me",
+     "from": "",
+     "games": 1,
+     "pt": 9.8,
+     "score": 32752,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "136332224",
+     "name": "もりるんch!",
+     "from": "",
+     "games": 1,
+     "pt": -11.9,
+     "score": 25078,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "137543241",
+     "name": "勘次郎様",
+     "from": "",
+     "games": 1,
+     "pt": -38.4,
+     "score": 12580,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "90038666",
+     "name": "yakushasu",
+     "from": "",
+     "games": 1,
+     "pt": 49.6,
+     "score": 44602,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-B2",
+   "round": "R1",
+   "block": "B",
+   "label": "B-2",
+   "order": 10,
+   "advance": 2,
+   "next": "R2-B1",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "142647300",
+     "name": "あっきいいいい",
+     "from": "",
+     "games": 1,
+     "pt": 7.6,
+     "score": 30560,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "68290200",
+     "name": "溜溜九",
+     "from": "",
+     "games": 1,
+     "pt": 47.5,
+     "score": 42455,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "126069507",
+     "name": "Saki_1027",
+     "from": "",
+     "games": 1,
+     "pt": -20.3,
+     "score": 16734,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "139864066",
+     "name": "雪乃",
+     "from": "",
+     "games": 1,
+     "pt": -41.2,
+     "score": 9844,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-B3",
+   "round": "R1",
+   "block": "B",
+   "label": "B-3",
+   "order": 11,
+   "advance": 2,
+   "next": "R2-B2",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "131146753",
+     "name": "owO",
+     "from": "",
+     "games": 1,
+     "pt": -38.9,
+     "score": 12066,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "134341196",
+     "name": "オキシ麻呂ん",
+     "from": "",
+     "games": 1,
+     "pt": -15.2,
+     "score": 21779,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "123085699",
+     "name": "海虎龍",
+     "from": "",
+     "games": 1,
+     "pt": 3.7,
+     "score": 26741,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "88138126",
+     "name": "城博士",
+     "from": "",
+     "games": 1,
+     "pt": 53.2,
+     "score": 48206,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-B4",
+   "round": "R1",
+   "block": "B",
+   "label": "B-4",
+   "order": 12,
+   "advance": 2,
+   "next": "R2-B2",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "139657734",
+     "name": "ぴぴぴチャン",
+     "from": "",
+     "games": 1,
+     "pt": 52,
+     "score": 46959,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "21508235",
+     "name": "范闲",
+     "from": "",
+     "games": 1,
+     "pt": 9.6,
+     "score": 32558,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "128706530",
+     "name": "TVick",
+     "from": "",
+     "games": 1,
+     "pt": -11.8,
+     "score": 25213,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "94247690",
+     "name": "紺道修",
+     "from": "",
+     "games": 1,
+     "pt": -34.6,
+     "score": 16367,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-B5",
+   "round": "R1",
+   "block": "B",
+   "label": "B-5",
+   "order": 13,
+   "advance": 2,
+   "next": "R2-B3",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "93224585",
+     "name": "BT#",
+     "from": "",
+     "games": 1,
+     "pt": -38.9,
+     "score": 12077,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "116722051",
+     "name": "水野0248",
+     "from": "",
+     "games": 1,
+     "pt": -17.3,
+     "score": 19746,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "96410505",
+     "name": "bagelnuts",
+     "from": "",
+     "games": 1,
+     "pt": 3.3,
+     "score": 26277,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "113059658",
+     "name": "Rid_Nayuta",
+     "from": "",
+     "games": 1,
+     "pt": 53.6,
+     "score": 48621,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-B6",
+   "round": "R1",
+   "block": "B",
+   "label": "B-6",
+   "order": 14,
+   "advance": 2,
+   "next": "R2-B3",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "71856530",
+     "name": "玻璃瓶早碎早弃",
+     "from": "",
+     "games": 1,
+     "pt": 52.1,
+     "score": 47091,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "91865541",
+     "name": "きみすk",
+     "from": "",
+     "games": 1,
+     "pt": 5.2,
+     "score": 28228,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "140455050",
+     "name": "fusagiko",
+     "from": "",
+     "games": 1,
+     "pt": -16.8,
+     "score": 20171,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "119829899",
+     "name": "鬼やさか",
+     "from": "",
+     "games": 1,
+     "pt": -39.9,
+     "score": 11144,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-B7",
+   "round": "R1",
+   "block": "B",
+   "label": "B-7",
+   "order": 15,
+   "advance": 2,
+   "next": "R2-B4",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "127851716",
+     "name": "隼鷹512",
+     "from": "",
+     "games": 1,
+     "pt": 49.4,
+     "score": 44437,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "88558208",
+     "name": "kaatan",
+     "from": "",
+     "games": 1,
+     "pt": -34.8,
+     "score": 16222,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "92646214",
+     "name": "ツモと和解せよ",
+     "from": "",
+     "games": 1,
+     "pt": -20.2,
+     "score": 16758,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "94153741",
+     "name": "ひより姫",
+     "from": "",
+     "games": 1,
+     "pt": 7,
+     "score": 29988,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-B8",
+   "round": "R1",
+   "block": "B",
+   "label": "B-8",
+   "order": 16,
+   "advance": 2,
+   "next": "R2-B4",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "107049024",
+     "name": "殺生与奪",
+     "from": "",
+     "games": 1,
+     "pt": -39.5,
+     "score": 11457,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "131483521",
+     "name": "雀KENポンVT",
+     "from": "",
+     "games": 1,
+     "pt": 3.1,
+     "score": 26130,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "83404229",
+     "name": "Re:そうまっち",
+     "from": "",
+     "games": 1,
+     "pt": 50.9,
+     "score": 45861,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "141077519",
+     "name": "abcku",
+     "from": "",
+     "games": 1,
+     "pt": -12.1,
+     "score": 24899,
+     "rank": 3,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-C1",
+   "round": "R1",
+   "block": "C",
+   "label": "C-1",
+   "order": 17,
+   "advance": 2,
+   "next": "R2-C1",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "125634828",
+     "name": "wefee",
+     "from": "",
+     "games": 1,
+     "pt": -35.3,
+     "score": 15747,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "80152707",
+     "name": "たいしょ〜〜〜",
+     "from": "",
+     "games": 1,
+     "pt": 2.7,
+     "score": 25704,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "107606084",
+     "name": "太陽の巫女",
+     "from": "",
+     "games": 1,
+     "pt": 46.6,
+     "score": 41600,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "141344743",
+     "name": "娘々",
+     "from": "",
+     "games": 1,
+     "pt": -14.6,
+     "score": 22396,
+     "rank": 3,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-C2",
+   "round": "R1",
+   "block": "C",
+   "label": "C-2",
+   "order": 18,
+   "advance": 2,
+   "next": "R2-C1",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "83675658",
+     "name": "joker_5",
+     "from": "",
+     "games": 1,
+     "pt": 50.5,
+     "score": 45486,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "60706720",
+     "name": "大雀麻小号",
+     "from": "",
+     "games": 1,
+     "pt": 8.6,
+     "score": 31593,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "106988361",
+     "name": "閻魔あい・二籠",
+     "from": "",
+     "games": 1,
+     "pt": -13.8,
+     "score": 23237,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "89724553",
+     "name": "ささキョン",
+     "from": "",
+     "games": 1,
+     "pt": -41.1,
+     "score": 9870,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-C3",
+   "round": "R1",
+   "block": "C",
+   "label": "C-3",
+   "order": 19,
+   "advance": 2,
+   "next": "R2-C2",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "64969134",
+     "name": "劳资莫得感情",
+     "from": "",
+     "games": 1,
+     "pt": -38,
+     "score": 12974,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "82778946",
+     "name": "ギガテイン",
+     "from": "",
+     "games": 1,
+     "pt": -15,
+     "score": 21959,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "101054662",
+     "name": "ほかほか亭白米",
+     "from": "",
+     "games": 1,
+     "pt": 8.4,
+     "score": 31350,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "83830028",
+     "name": "ほやねこ",
+     "from": "",
+     "games": 1,
+     "pt": 50.1,
+     "score": 45083,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-C4",
+   "round": "R1",
+   "block": "C",
+   "label": "C-4",
+   "order": 20,
+   "advance": 2,
+   "next": "R2-C2",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "117925763",
+     "name": "善竜",
+     "from": "",
+     "games": 1,
+     "pt": 47.7,
+     "score": 42652,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "57474836",
+     "name": "WinnieTsin",
+     "from": "",
+     "games": 1,
+     "pt": 4.1,
+     "score": 27100,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "140566604",
+     "name": "シャナ!",
+     "from": "",
+     "games": 1,
+     "pt": -37.4,
+     "score": 13635,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "134680324",
+     "name": "マッシー",
+     "from": "",
+     "games": 1,
+     "pt": -15.7,
+     "score": 21335,
+     "rank": 3,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-C5",
+   "round": "R1",
+   "block": "C",
+   "label": "C-5",
+   "order": 21,
+   "advance": 2,
+   "next": "R2-C3",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "120719242",
+     "name": "希水",
+     "from": "",
+     "games": 1,
+     "pt": -35.9,
+     "score": 15089,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "88742246",
+     "name": "jennylee1987",
+     "from": "",
+     "games": 1,
+     "pt": -16.6,
+     "score": 20371,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "125346185",
+     "name": "ひらめちゃ。",
+     "from": "",
+     "games": 1,
+     "pt": 46.5,
+     "score": 41541,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "89096904",
+     "name": "よよっち009",
+     "from": "",
+     "games": 1,
+     "pt": 7.1,
+     "score": 30080,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-C6",
+   "round": "R1",
+   "block": "C",
+   "label": "C-6",
+   "order": 22,
+   "advance": 2,
+   "next": "R2-C3",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "116542089",
+     "name": "ドゥーチェ!!",
+     "from": "",
+     "games": 1,
+     "pt": 47.8,
+     "score": 42800,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "129778818",
+     "name": "矢絣京",
+     "from": "",
+     "games": 1,
+     "pt": 5.2,
+     "score": 28215,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "117001155",
+     "name": "あおあおだよ",
+     "from": "",
+     "games": 1,
+     "pt": -12.7,
+     "score": 24347,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "72450337",
+     "name": "禁止卖狗",
+     "from": "",
+     "games": 1,
+     "pt": -38.5,
+     "score": 12541,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-C7",
+   "round": "R1",
+   "block": "C",
+   "label": "C-7",
+   "order": 23,
+   "advance": 2,
+   "next": "R2-C4",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "100529994",
+     "name": "Nordstream",
+     "from": "",
+     "games": 1,
+     "pt": -38.5,
+     "score": 12452,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "112891394",
+     "name": "ケンティオール",
+     "from": "",
+     "games": 1,
+     "pt": -13,
+     "score": 23986,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "122926209",
+     "name": "舟橋彼方",
+     "from": "",
+     "games": 1,
+     "pt": 5.8,
+     "score": 28834,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "138266115",
+     "name": "vこもv",
+     "from": "",
+     "games": 1,
+     "pt": 46.3,
+     "score": 41298,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-C8",
+   "round": "R1",
+   "block": "C",
+   "label": "C-8",
+   "order": 24,
+   "advance": 2,
+   "next": "R2-C4",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "80868424",
+     "name": "KaiKanon",
+     "from": "",
+     "games": 1,
+     "pt": 9.3,
+     "score": 32272,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "114702473",
+     "name": "紫式部VTuber",
+     "from": "",
+     "games": 1,
+     "pt": -19.8,
+     "score": 17247,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "101232195",
+     "name": "Komi22",
+     "from": "",
+     "games": 1,
+     "pt": -41.5,
+     "score": 9480,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "134737230",
+     "name": "音:にょん",
+     "from": "",
+     "games": 1,
+     "pt": 50.9,
+     "score": 45902,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-D1",
+   "round": "R1",
+   "block": "D",
+   "label": "D-1",
+   "order": 25,
+   "advance": 2,
+   "next": "R2-D1",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "101961285",
+     "name": "きりしおん",
+     "from": "",
+     "games": 1,
+     "pt": 49.2,
+     "score": 44221,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "94896778",
+     "name": "ねじまき鳥@",
+     "from": "",
+     "games": 1,
+     "pt": -18.9,
+     "score": 18089,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "111120963",
+     "name": "positron",
+     "from": "",
+     "games": 1,
+     "pt": -36.3,
+     "score": 14679,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "123491843",
+     "name": "柊刹那",
+     "from": "",
+     "games": 1,
+     "pt": 8.1,
+     "score": 31114,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-D2",
+   "round": "R1",
+   "block": "D",
+   "label": "D-2",
+   "order": 26,
+   "advance": 2,
+   "next": "R2-D1",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "128185988",
+     "name": "テルヒサ爆発",
+     "from": "",
+     "games": 1,
+     "pt": 4.8,
+     "score": 27755,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "10751905",
+     "name": "Momo2002",
+     "from": "",
+     "games": 1,
+     "pt": -12.3,
+     "score": 24741,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "78675468",
+     "name": "いとまる。",
+     "from": "",
+     "games": 1,
+     "pt": -41.6,
+     "score": 9410,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "125811597",
+     "name": "あるる　xyz",
+     "from": "",
+     "games": 1,
+     "pt": 49.5,
+     "score": 44452,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-D3",
+   "round": "R1",
+   "block": "D",
+   "label": "D-3",
+   "order": 27,
+   "advance": 2,
+   "next": "R2-D2",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "88935428",
+     "name": "姫芽宮",
+     "from": "",
+     "games": 1,
+     "pt": 52.9,
+     "score": 47929,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "93223500",
+     "name": "ひな1115",
+     "from": "",
+     "games": 1,
+     "pt": 5.5,
+     "score": 28541,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "118774474",
+     "name": "RandyUchida",
+     "from": "",
+     "games": 1,
+     "pt": -11.9,
+     "score": 25111,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "82825921",
+     "name": "石津浜",
+     "from": "",
+     "games": 1,
+     "pt": -38.6,
+     "score": 12368,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-D4",
+   "round": "R1",
+   "block": "D",
+   "label": "D-4",
+   "order": 28,
+   "advance": 2,
+   "next": "R2-D2",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "136925954",
+     "name": "リオ",
+     "from": "",
+     "games": 1,
+     "pt": 45.6,
+     "score": 40641,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "142737614",
+     "name": "神様m",
+     "from": "",
+     "games": 1,
+     "pt": 9.2,
+     "score": 32163,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "108579331",
+     "name": "usk90",
+     "from": "",
+     "games": 1,
+     "pt": -14.3,
+     "score": 22651,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "123956674",
+     "name": "コージトレック",
+     "from": "",
+     "games": 1,
+     "pt": -35.4,
+     "score": 15646,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-D5",
+   "round": "R1",
+   "block": "D",
+   "label": "D-5",
+   "order": 29,
+   "advance": 2,
+   "next": "R2-D3",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "127075082",
+     "name": "検察側証人@VPL",
+     "from": "",
+     "games": 1,
+     "pt": 48.5,
+     "score": 43541,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "132448843",
+     "name": "VTakihiraCH",
+     "from": "",
+     "games": 1,
+     "pt": 7.5,
+     "score": 30482,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "142139784",
+     "name": "o〇える〇o",
+     "from": "",
+     "games": 1,
+     "pt": -37,
+     "score": 13955,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "81260546",
+     "name": "えびえびえびえ",
+     "from": "",
+     "games": 1,
+     "pt": -18.4,
+     "score": 18588,
+     "rank": 3,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-D6",
+   "round": "R1",
+   "block": "D",
+   "label": "D-6",
+   "order": 30,
+   "advance": 2,
+   "next": "R2-D3",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "78403145",
+     "name": "クーアけん",
+     "from": "",
+     "games": 1,
+     "pt": 52.4,
+     "score": 47400,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "109796420",
+     "name": "どらハチ",
+     "from": "",
+     "games": 1,
+     "pt": 7.3,
+     "score": 30275,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "121515082",
+     "name": "80んちゃん",
+     "from": "",
+     "games": 1,
+     "pt": -20,
+     "score": 17017,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "78641228",
+     "name": "ミホノブルゾン",
+     "from": "",
+     "games": 1,
+     "pt": -34,
+     "score": 16991,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-D7",
+   "round": "R1",
+   "block": "D",
+   "label": "D-7",
+   "order": 31,
+   "advance": 2,
+   "next": "R2-D4",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "131022603",
+     "name": "地方公共団体",
+     "from": "",
+     "games": 1,
+     "pt": -40.8,
+     "score": 10198,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "136046350",
+     "name": "メルモでポン",
+     "from": "",
+     "games": 1,
+     "pt": -15.9,
+     "score": 21051,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "132114112",
+     "name": "カンにゃっっ",
+     "from": "",
+     "games": 1,
+     "pt": 3.4,
+     "score": 26402,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "89650113",
+     "name": "26m",
+     "from": "",
+     "games": 1,
+     "pt": 50.3,
+     "score": 45271,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R1-D8",
+   "round": "R1",
+   "block": "D",
+   "label": "D-8",
+   "order": 32,
+   "advance": 2,
+   "next": "R2-D4",
+   "parents": [],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "133473038",
+     "name": "まちこカントク",
+     "from": "",
+     "games": 1,
+     "pt": 45.6,
+     "score": 40602,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "88586311",
+     "name": "INDR",
+     "from": "",
+     "games": 1,
+     "pt": 10.4,
+     "score": 33435,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "83387205",
+     "name": "上新庄ワイルド",
+     "from": "",
+     "games": 1,
+     "pt": -35.9,
+     "score": 15064,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "127323718",
+     "name": "咲夜@TAKAHIRO",
+     "from": "",
+     "games": 1,
+     "pt": -19.4,
+     "score": 17648,
+     "rank": 3,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-A1",
+   "round": "R2",
+   "block": "A",
+   "label": "A-1",
+   "order": 33,
+   "advance": 2,
+   "next": "R3-A1",
+   "parents": [
+    "R1-A1",
+    "R1-A2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "23338657",
+     "name": "木几乂",
+     "from": "R1-A1 1位",
+     "games": 1,
+     "pt": -40.6,
+     "score": 10441,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "87997062",
+     "name": "狩り隊",
+     "from": "R1-A2 1位",
+     "games": 1,
+     "pt": -20.4,
+     "score": 16561,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "79123918",
+     "name": "役満夢追人",
+     "from": "R1-A1 2位",
+     "games": 1,
+     "pt": 4.1,
+     "score": 27050,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "86075591",
+     "name": "城口",
+     "from": "R1-A2 2位",
+     "games": 1,
+     "pt": 51.2,
+     "score": 46169,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-A2",
+   "round": "R2",
+   "block": "A",
+   "label": "A-2",
+   "order": 34,
+   "advance": 2,
+   "next": "R3-A1",
+   "parents": [
+    "R1-A3",
+    "R1-A4"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "117455113",
+     "name": "CheshireCat",
+     "from": "R1-A3 1位",
+     "games": 1,
+     "pt": 5.5,
+     "score": 28452,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "88573188",
+     "name": "メタボ猫男爵",
+     "from": "R1-A4 1位",
+     "games": 1,
+     "pt": -19.8,
+     "score": 17226,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "93358853",
+     "name": "燕羽そばや",
+     "from": "R1-A3 2位",
+     "games": 1,
+     "pt": 51.4,
+     "score": 46407,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "91330179",
+     "name": "真GOゼンツ",
+     "from": "R1-A4 2位",
+     "games": 1,
+     "pt": -36.6,
+     "score": 14388,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-A3",
+   "round": "R2",
+   "block": "A",
+   "label": "A-3",
+   "order": 35,
+   "advance": 2,
+   "next": "R3-A2",
+   "parents": [
+    "R1-A5",
+    "R1-A6"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "83270541",
+     "name": "holy神go",
+     "from": "R1-A5 1位",
+     "games": 1,
+     "pt": 45.6,
+     "score": 40565,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "135292494",
+     "name": "磨斧まふー",
+     "from": "R1-A6 1位",
+     "games": 1,
+     "pt": -40.8,
+     "score": 10220,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "81797323",
+     "name": "あきぼーちゃん",
+     "from": "R1-A5 2位",
+     "games": 1,
+     "pt": -18.5,
+     "score": 18470,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "139463374",
+     "name": "ますろー@MSR",
+     "from": "R1-A6 2位",
+     "games": 1,
+     "pt": 6.1,
+     "score": 29101,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-A4",
+   "round": "R2",
+   "block": "A",
+   "label": "A-4",
+   "order": 36,
+   "advance": 2,
+   "next": "R3-A2",
+   "parents": [
+    "R1-A7",
+    "R1-A8"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "116239178",
+     "name": "ドローレスの猫",
+     "from": "R1-A7 1位",
+     "games": 1,
+     "pt": 46.9,
+     "score": 41936,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "85219592",
+     "name": "たなか教祖",
+     "from": "R1-A8 1位",
+     "games": 1,
+     "pt": 2.6,
+     "score": 25593,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "98524483",
+     "name": "おじさん応援団",
+     "from": "R1-A7 2位",
+     "games": 1,
+     "pt": -11.8,
+     "score": 25231,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "134750923",
+     "name": "yoru_013",
+     "from": "R1-A8 2位",
+     "games": 1,
+     "pt": -39.2,
+     "score": 11824,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-B1",
+   "round": "R2",
+   "block": "B",
+   "label": "B-1",
+   "order": 37,
+   "advance": 2,
+   "next": "R3-B1",
+   "parents": [
+    "R1-B1",
+    "R1-B2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "90038666",
+     "name": "yakushasu",
+     "from": "R1-B1 1位",
+     "games": 1,
+     "pt": -15.6,
+     "score": 21400,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "68290200",
+     "name": "溜溜九",
+     "from": "R1-B2 1位",
+     "games": 1,
+     "pt": -36.2,
+     "score": 14827,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "22152609",
+     "name": "牌神保me",
+     "from": "R1-B1 2位",
+     "games": 1,
+     "pt": 51.2,
+     "score": 46210,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "142647300",
+     "name": "あっきいいいい",
+     "from": "R1-B2 2位",
+     "games": 1,
+     "pt": 1.5,
+     "score": 24515,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-B2",
+   "round": "R2",
+   "block": "B",
+   "label": "B-2",
+   "order": 38,
+   "advance": 2,
+   "next": "R3-B1",
+   "parents": [
+    "R1-B3",
+    "R1-B4"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "88138126",
+     "name": "城博士",
+     "from": "R1-B3 1位",
+     "games": 1,
+     "pt": -40.4,
+     "score": 10570,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "139657734",
+     "name": "ぴぴぴチャン",
+     "from": "R1-B4 1位",
+     "games": 1,
+     "pt": 2.7,
+     "score": 25742,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "123085699",
+     "name": "海虎龍",
+     "from": "R1-B3 2位",
+     "games": 1,
+     "pt": 47.1,
+     "score": 42073,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "21508235",
+     "name": "范闲",
+     "from": "R1-B4 2位",
+     "games": 1,
+     "pt": -16.9,
+     "score": 20085,
+     "rank": 3,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-B3",
+   "round": "R2",
+   "block": "B",
+   "label": "B-3",
+   "order": 39,
+   "advance": 2,
+   "next": "R3-B2",
+   "parents": [
+    "R1-B5",
+    "R1-B6"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "113059658",
+     "name": "Rid_Nayuta",
+     "from": "R1-B5 1位",
+     "games": 1,
+     "pt": -41,
+     "score": 10023,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "71856530",
+     "name": "玻璃瓶早碎早弃",
+     "from": "R1-B6 1位",
+     "games": 1,
+     "pt": 46.2,
+     "score": 41237,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "96410505",
+     "name": "bagelnuts",
+     "from": "R1-B5 2位",
+     "games": 1,
+     "pt": -13.5,
+     "score": 23499,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "91865541",
+     "name": "きみすk",
+     "from": "R1-B6 2位",
+     "games": 1,
+     "pt": 4.6,
+     "score": 27556,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-B4",
+   "round": "R2",
+   "block": "B",
+   "label": "B-4",
+   "order": 40,
+   "advance": 2,
+   "next": "R3-B2",
+   "parents": [
+    "R1-B7",
+    "R1-B8"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "127851716",
+     "name": "隼鷹512",
+     "from": "R1-B7 1位",
+     "games": 1,
+     "pt": -17.2,
+     "score": 19820,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "83404229",
+     "name": "Re:そうまっち",
+     "from": "R1-B8 1位",
+     "games": 1,
+     "pt": -36.9,
+     "score": 14123,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "94153741",
+     "name": "ひより姫",
+     "from": "R1-B7 2位",
+     "games": 1,
+     "pt": 3,
+     "score": 26001,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "131483521",
+     "name": "雀KENポンVT",
+     "from": "R1-B8 2位",
+     "games": 1,
+     "pt": 51,
+     "score": 46038,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-C1",
+   "round": "R2",
+   "block": "C",
+   "label": "C-1",
+   "order": 41,
+   "advance": 2,
+   "next": "R3-C1",
+   "parents": [
+    "R1-C1",
+    "R1-C2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "107606084",
+     "name": "太陽の巫女",
+     "from": "R1-C1 1位",
+     "games": 1,
+     "pt": 7.6,
+     "score": 30567,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "83675658",
+     "name": "joker_5",
+     "from": "R1-C2 1位",
+     "games": 1,
+     "pt": -38.8,
+     "score": 12238,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "80152707",
+     "name": "たいしょ〜〜〜",
+     "from": "R1-C1 2位",
+     "games": 1,
+     "pt": 50,
+     "score": 44998,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "60706720",
+     "name": "大雀麻小号",
+     "from": "R1-C2 2位",
+     "games": 1,
+     "pt": -17.8,
+     "score": 19235,
+     "rank": 3,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-C2",
+   "round": "R2",
+   "block": "C",
+   "label": "C-2",
+   "order": 42,
+   "advance": 2,
+   "next": "R3-C1",
+   "parents": [
+    "R1-C3",
+    "R1-C4"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "83830028",
+     "name": "ほやねこ",
+     "from": "R1-C3 1位",
+     "games": 1,
+     "pt": -41.6,
+     "score": 9409,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "117925763",
+     "name": "善竜",
+     "from": "R1-C4 1位",
+     "games": 1,
+     "pt": -13.6,
+     "score": 23426,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "101054662",
+     "name": "ほかほか亭白米",
+     "from": "R1-C3 2位",
+     "games": 1,
+     "pt": 9.8,
+     "score": 32771,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "57474836",
+     "name": "WinnieTsin",
+     "from": "R1-C4 2位",
+     "games": 1,
+     "pt": 53.9,
+     "score": 48870,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-C3",
+   "round": "R2",
+   "block": "C",
+   "label": "C-3",
+   "order": 43,
+   "advance": 2,
+   "next": "R3-C2",
+   "parents": [
+    "R1-C5",
+    "R1-C6"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "125346185",
+     "name": "ひらめちゃ。",
+     "from": "R1-C5 1位",
+     "games": 1,
+     "pt": -34.5,
+     "score": 16455,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "116542089",
+     "name": "ドゥーチェ!!",
+     "from": "R1-C6 1位",
+     "games": 1,
+     "pt": -13.3,
+     "score": 23669,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "89096904",
+     "name": "よよっち009",
+     "from": "R1-C5 2位",
+     "games": 1,
+     "pt": 4.7,
+     "score": 27658,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "129778818",
+     "name": "矢絣京",
+     "from": "R1-C6 2位",
+     "games": 1,
+     "pt": 53.4,
+     "score": 48392,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-C4",
+   "round": "R2",
+   "block": "C",
+   "label": "C-4",
+   "order": 44,
+   "advance": 2,
+   "next": "R3-C2",
+   "parents": [
+    "R1-C7",
+    "R1-C8"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "138266115",
+     "name": "vこもv",
+     "from": "R1-C7 1位",
+     "games": 1,
+     "pt": 52.5,
+     "score": 47492,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "134737230",
+     "name": "音:にょん",
+     "from": "R1-C8 1位",
+     "games": 1,
+     "pt": 4,
+     "score": 26978,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "122926209",
+     "name": "舟橋彼方",
+     "from": "R1-C7 2位",
+     "games": 1,
+     "pt": -36.5,
+     "score": 14457,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "80868424",
+     "name": "KaiKanon",
+     "from": "R1-C8 2位",
+     "games": 1,
+     "pt": -18.8,
+     "score": 18203,
+     "rank": 3,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-D1",
+   "round": "R2",
+   "block": "D",
+   "label": "D-1",
+   "order": 45,
+   "advance": 2,
+   "next": "R3-D1",
+   "parents": [
+    "R1-D1",
+    "R1-D2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "101961285",
+     "name": "きりしおん",
+     "from": "R1-D1 1位",
+     "games": 1,
+     "pt": 47.6,
+     "score": 42585,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "125811597",
+     "name": "あるる　xyz",
+     "from": "R1-D2 1位",
+     "games": 1,
+     "pt": -13.2,
+     "score": 23832,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "123491843",
+     "name": "柊刹那",
+     "from": "R1-D1 2位",
+     "games": 1,
+     "pt": -35.4,
+     "score": 15561,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "128185988",
+     "name": "テルヒサ爆発",
+     "from": "R1-D2 2位",
+     "games": 1,
+     "pt": 7.2,
+     "score": 30167,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-D2",
+   "round": "R2",
+   "block": "D",
+   "label": "D-2",
+   "order": 46,
+   "advance": 2,
+   "next": "R3-D1",
+   "parents": [
+    "R1-D3",
+    "R1-D4"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "88935428",
+     "name": "姫芽宮",
+     "from": "R1-D3 1位",
+     "games": 1,
+     "pt": 50.4,
+     "score": 45397,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "136925954",
+     "name": "リオ",
+     "from": "R1-D4 1位",
+     "games": 1,
+     "pt": 3.8,
+     "score": 26811,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "93223500",
+     "name": "ひな1115",
+     "from": "R1-D3 2位",
+     "games": 1,
+     "pt": -19,
+     "score": 18030,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "142737614",
+     "name": "神様m",
+     "from": "R1-D4 2位",
+     "games": 1,
+     "pt": -39.2,
+     "score": 11764,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-D3",
+   "round": "R2",
+   "block": "D",
+   "label": "D-3",
+   "order": 47,
+   "advance": 2,
+   "next": "R3-D2",
+   "parents": [
+    "R1-D5",
+    "R1-D6"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "127075082",
+     "name": "検察側証人@VPL",
+     "from": "R1-D5 1位",
+     "games": 1,
+     "pt": -39.4,
+     "score": 11646,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "78403145",
+     "name": "クーアけん",
+     "from": "R1-D6 1位",
+     "games": 1,
+     "pt": -15.3,
+     "score": 21725,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "132448843",
+     "name": "VTakihiraCH",
+     "from": "R1-D5 2位",
+     "games": 1,
+     "pt": 2.2,
+     "score": 25181,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "109796420",
+     "name": "どらハチ",
+     "from": "R1-D6 2位",
+     "games": 1,
+     "pt": 54.4,
+     "score": 49435,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R2-D4",
+   "round": "R2",
+   "block": "D",
+   "label": "D-4",
+   "order": 48,
+   "advance": 2,
+   "next": "R3-D2",
+   "parents": [
+    "R1-D7",
+    "R1-D8"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "89650113",
+     "name": "26m",
+     "from": "R1-D7 1位",
+     "games": 1,
+     "pt": -41.8,
+     "score": 9170,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "133473038",
+     "name": "まちこカントク",
+     "from": "R1-D8 1位",
+     "games": 1,
+     "pt": -11.9,
+     "score": 25137,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "132114112",
+     "name": "カンにゃっっ",
+     "from": "R1-D7 2位",
+     "games": 1,
+     "pt": 9.9,
+     "score": 32932,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "88586311",
+     "name": "INDR",
+     "from": "R1-D8 2位",
+     "games": 1,
+     "pt": 47.9,
+     "score": 42939,
+     "rank": 1,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R3-A1",
+   "round": "R3",
+   "block": "A",
+   "label": "A-1",
+   "order": 49,
+   "advance": 2,
+   "next": "R4-A1",
+   "parents": [
+    "R2-A1",
+    "R2-A2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "86075591",
+     "name": "城口",
+     "from": "R2-A1 1位",
+     "games": 1,
+     "pt": -15.3,
+     "score": 21723,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "93358853",
+     "name": "燕羽そばや",
+     "from": "R2-A2 1位",
+     "games": 1,
+     "pt": 3.7,
+     "score": 26703,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "79123918",
+     "name": "役満夢追人",
+     "from": "R2-A1 2位",
+     "games": 1,
+     "pt": 53.2,
+     "score": 48245,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "117455113",
+     "name": "CheshireCat",
+     "from": "R2-A2 2位",
+     "games": 1,
+     "pt": -38,
+     "score": 12985,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R3-A2",
+   "round": "R3",
+   "block": "A",
+   "label": "A-2",
+   "order": 50,
+   "advance": 2,
+   "next": "R4-A1",
+   "parents": [
+    "R2-A3",
+    "R2-A4"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "83270541",
+     "name": "holy神go",
+     "from": "R2-A3 1位",
+     "games": 1,
+     "pt": -33.8,
+     "score": 17164,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "116239178",
+     "name": "ドローレスの猫",
+     "from": "R2-A4 1位",
+     "games": 1,
+     "pt": 2.3,
+     "score": 25277,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "139463374",
+     "name": "ますろー@MSR",
+     "from": "R2-A3 2位",
+     "games": 1,
+     "pt": 53.4,
+     "score": 48430,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "85219592",
+     "name": "たなか教祖",
+     "from": "R2-A4 2位",
+     "games": 1,
+     "pt": -18.8,
+     "score": 18243,
+     "rank": 3,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R3-B1",
+   "round": "R3",
+   "block": "B",
+   "label": "B-1",
+   "order": 51,
+   "advance": 2,
+   "next": "R4-B1",
+   "parents": [
+    "R2-B1",
+    "R2-B2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "22152609",
+     "name": "牌神保me",
+     "from": "R2-B1 1位",
+     "games": 1,
+     "pt": -36.3,
+     "score": 14681,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "123085699",
+     "name": "海虎龍",
+     "from": "R2-B2 1位",
+     "games": 1,
+     "pt": -17,
+     "score": 20021,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "142647300",
+     "name": "あっきいいいい",
+     "from": "R2-B1 2位",
+     "games": 1,
+     "pt": 47.1,
+     "score": 42107,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "139657734",
+     "name": "ぴぴぴチャン",
+     "from": "R2-B2 2位",
+     "games": 1,
+     "pt": 9,
+     "score": 32011,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R3-B2",
+   "round": "R3",
+   "block": "B",
+   "label": "B-2",
+   "order": 52,
+   "advance": 2,
+   "next": "R4-B1",
+   "parents": [
+    "R2-B3",
+    "R2-B4"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "71856530",
+     "name": "玻璃瓶早碎早弃",
+     "from": "R2-B3 1位",
+     "games": 1,
+     "pt": 52.1,
+     "score": 47073,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "131483521",
+     "name": "雀KENポンVT",
+     "from": "R2-B4 1位",
+     "games": 1,
+     "pt": -11.6,
+     "score": 25404,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "91865541",
+     "name": "きみすk",
+     "from": "R2-B3 2位",
+     "games": 1,
+     "pt": -42.1,
+     "score": 8937,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "94153741",
+     "name": "ひより姫",
+     "from": "R2-B4 2位",
+     "games": 1,
+     "pt": 3.2,
+     "score": 26235,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R3-C1",
+   "round": "R3",
+   "block": "C",
+   "label": "C-1",
+   "order": 53,
+   "advance": 2,
+   "next": "R4-C1",
+   "parents": [
+    "R2-C1",
+    "R2-C2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "80152707",
+     "name": "たいしょ〜〜〜",
+     "from": "R2-C1 1位",
+     "games": 1,
+     "pt": 49.6,
+     "score": 44612,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "57474836",
+     "name": "WinnieTsin",
+     "from": "R2-C2 1位",
+     "games": 1,
+     "pt": -16.9,
+     "score": 20103,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "107606084",
+     "name": "太陽の巫女",
+     "from": "R2-C1 2位",
+     "games": 1,
+     "pt": -42.3,
+     "score": 8680,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "101054662",
+     "name": "ほかほか亭白米",
+     "from": "R2-C2 2位",
+     "games": 1,
+     "pt": 3.9,
+     "score": 26915,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R3-C2",
+   "round": "R3",
+   "block": "C",
+   "label": "C-2",
+   "order": 54,
+   "advance": 2,
+   "next": "R4-C1",
+   "parents": [
+    "R2-C3",
+    "R2-C4"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "129778818",
+     "name": "矢絣京",
+     "from": "R2-C3 1位",
+     "games": 1,
+     "pt": 53,
+     "score": 48022,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "138266115",
+     "name": "vこもv",
+     "from": "R2-C4 1位",
+     "games": 1,
+     "pt": 9.3,
+     "score": 32250,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "89096904",
+     "name": "よよっち009",
+     "from": "R2-C3 2位",
+     "games": 1,
+     "pt": -16.8,
+     "score": 20238,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "134737230",
+     "name": "音:にょん",
+     "from": "R2-C4 2位",
+     "games": 1,
+     "pt": -37.7,
+     "score": 13267,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R3-D1",
+   "round": "R3",
+   "block": "D",
+   "label": "D-1",
+   "order": 55,
+   "advance": 2,
+   "next": "R4-D1",
+   "parents": [
+    "R2-D1",
+    "R2-D2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "101961285",
+     "name": "きりしおん",
+     "from": "R2-D1 1位",
+     "games": 1,
+     "pt": -11.9,
+     "score": 25132,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "88935428",
+     "name": "姫芽宮",
+     "from": "R2-D2 1位",
+     "games": 1,
+     "pt": 48.9,
+     "score": 43883,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "128185988",
+     "name": "テルヒサ爆発",
+     "from": "R2-D1 2位",
+     "games": 1,
+     "pt": -38.1,
+     "score": 12945,
+     "rank": 4,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "136925954",
+     "name": "リオ",
+     "from": "R2-D2 2位",
+     "games": 1,
+     "pt": 5.5,
+     "score": 28515,
+     "rank": 2,
+     "advanced": true
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R3-D2",
+   "round": "R3",
+   "block": "D",
+   "label": "D-2",
+   "order": 56,
+   "advance": 2,
+   "next": "R4-D1",
+   "parents": [
+    "R2-D3",
+    "R2-D4"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "109796420",
+     "name": "どらハチ",
+     "from": "R2-D3 1位",
+     "games": 1,
+     "pt": 53.1,
+     "score": 48093,
+     "rank": 1,
+     "advanced": true
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "88586311",
+     "name": "INDR",
+     "from": "R2-D4 1位",
+     "games": 1,
+     "pt": 10.5,
+     "score": 33470,
+     "rank": 2,
+     "advanced": true
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "132448843",
+     "name": "VTakihiraCH",
+     "from": "R2-D3 2位",
+     "games": 1,
+     "pt": -15.8,
+     "score": 21233,
+     "rank": 3,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "132114112",
+     "name": "カンにゃっっ",
+     "from": "R2-D4 2位",
+     "games": 1,
+     "pt": -37.3,
+     "score": 13729,
+     "rank": 4,
+     "advanced": false
+    }
+   ],
+   "status": "done"
+  },
+  {
+   "id": "R4-A1",
+   "round": "R4",
+   "block": "A",
+   "label": "Aブロック 準決勝",
+   "order": 57,
+   "advance": 1,
+   "next": "R5-F1",
+   "parents": [
+    "R3-A1",
+    "R3-A2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "79123918",
+     "name": "役満夢追人",
+     "from": "R3-A1 1位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "139463374",
+     "name": "ますろー@MSR",
+     "from": "R3-A2 1位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "93358853",
+     "name": "燕羽そばや",
+     "from": "R3-A1 2位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "116239178",
+     "name": "ドローレスの猫",
+     "from": "R3-A2 2位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    }
+   ],
+   "status": "ready"
+  },
+  {
+   "id": "R4-B1",
+   "round": "R4",
+   "block": "B",
+   "label": "Bブロック 準決勝",
+   "order": 58,
+   "advance": 1,
+   "next": "R5-F1",
+   "parents": [
+    "R3-B1",
+    "R3-B2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "142647300",
+     "name": "あっきいいいい",
+     "from": "R3-B1 1位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "71856530",
+     "name": "玻璃瓶早碎早弃",
+     "from": "R3-B2 1位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "139657734",
+     "name": "ぴぴぴチャン",
+     "from": "R3-B1 2位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "94153741",
+     "name": "ひより姫",
+     "from": "R3-B2 2位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    }
+   ],
+   "status": "ready"
+  },
+  {
+   "id": "R4-C1",
+   "round": "R4",
+   "block": "C",
+   "label": "Cブロック 準決勝",
+   "order": 59,
+   "advance": 1,
+   "next": "R5-F1",
+   "parents": [
+    "R3-C1",
+    "R3-C2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "80152707",
+     "name": "たいしょ〜〜〜",
+     "from": "R3-C1 1位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "129778818",
+     "name": "矢絣京",
+     "from": "R3-C2 1位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "101054662",
+     "name": "ほかほか亭白米",
+     "from": "R3-C1 2位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "138266115",
+     "name": "vこもv",
+     "from": "R3-C2 2位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    }
+   ],
+   "status": "ready"
+  },
+  {
+   "id": "R4-D1",
+   "round": "R4",
+   "block": "D",
+   "label": "Dブロック 準決勝",
+   "order": 60,
+   "advance": 1,
+   "next": "R5-F1",
+   "parents": [
+    "R3-D1",
+    "R3-D2"
+   ],
+   "seats": [
+    {
+     "seat": "1",
+     "seatIndex": 1,
+     "playerId": "88935428",
+     "name": "姫芽宮",
+     "from": "R3-D1 1位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "2",
+     "seatIndex": 2,
+     "playerId": "109796420",
+     "name": "どらハチ",
+     "from": "R3-D2 1位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "3",
+     "seatIndex": 3,
+     "playerId": "136925954",
+     "name": "リオ",
+     "from": "R3-D1 2位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    },
+    {
+     "seat": "4",
+     "seatIndex": 4,
+     "playerId": "88586311",
+     "name": "INDR",
+     "from": "R3-D2 2位",
+     "games": 0,
+     "pt": null,
+     "score": null,
+     "rank": null,
+     "advanced": false
+    }
+   ],
+   "status": "ready"
+  },
+  {
+   "id": "R5-F1",
+   "round": "R5",
+   "block": "F",
+   "label": "決勝卓",
+   "order": 61,
+   "advance": 1,
+   "next": "",
+   "parents": [
+    "R4-A1",
+    "R4-B1",
+    "R4-C1",
+    "R4-D1"
+   ],
+   "seats": [],
+   "status": "pending"
+  }
+ ]
+}

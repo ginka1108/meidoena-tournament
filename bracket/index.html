@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>明戸杯2026 トーナメント表</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <div class="tb-left">
+    <strong id="tbTitle">明戸杯2026</strong>
+    <span class="tb-sub" id="tbSub"></span>
+  </div>
+
+  <nav class="tb-views" id="views">
+    <button data-view="overview" class="on">全体</button>
+    <button data-view="block">ブロック</button>
+    <button data-view="round">ラウンド</button>
+  </nav>
+
+  <div class="tb-scope">
+    <select id="scopeBlock" hidden></select>
+    <select id="scopeRound" hidden></select>
+  </div>
+
+  <div class="tb-zoom">
+    <button id="zOut" title="縮小">−</button>
+    <button id="zFit" class="on" title="幅に合わせる">フィット</button>
+    <button id="zIn"  title="拡大">＋</button>
+  </div>
+
+  <div class="tb-right">
+    <span class="live" id="live" title="更新状況"><i></i><span id="liveTxt">接続中…</span></span>
+    <button id="btnReload" title="今すぐ再取得">再取得</button>
+    <button id="btnPng" class="primary">PNG書き出し</button>
+  </div>
+</header>
+
+<main class="canvas" id="canvas">
+  <div class="viewport" id="viewport"></div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script src="assets.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
