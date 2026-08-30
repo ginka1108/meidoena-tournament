@@ -13,7 +13,7 @@ window.MEIDO_CONFIG = {
    *   例) 'https://<ユーザ名>.github.io/<リポジトリ>/data/'
    *       'https://cdn.jsdelivr.net/gh/<ユーザ名>/<リポジトリ>@main/data/'
    */
-  staticBase: 'https://ginka1108.github.io/meidoena-tournament/data/',
+  staticBase: '',
 
   /**
    * 【フォールバック】GAS ウェブアプリの /exec URL。
@@ -21,7 +21,7 @@ window.MEIDO_CONFIG = {
    *   ※GASは1日あたりのスクリプト実行時間に上限があるので、
    *     配信PCなど少数の端末から見る場合だけにすること（docs/03を参照）。
    */
-  gasUrl: 'https://script.google.com/macros/s/AKfycbz2aAuL-IBSvhozVPeh6I8FmRmLmgKAtd-vBUHj07YKNOZBBdB-4caDvg8bq_5lqP9zuA/exec',
+  gasUrl: '',
 
   /** 参照APIにトークンをかけた場合のみ設定 */
   apiToken: '',
@@ -50,6 +50,12 @@ window.MEIDO_CONFIG = {
    * （無料アカウントの上限は90分/日）。**配信PCなど少数の端末専用**にしてください。
    */
   gasPollMs: 3000,
+
+  /**
+   * 更新を取り込んだときに「更新がありました」のトーストを出すか。
+   * 配信に映る場合は false のままにしてください（右上のランプとリビジョン表示で足ります）。
+   */
+  showUpdateToast: false,
 
   /** GAS直で CORS に弾かれたとき JSONP に自動フォールバックする */
   allowJsonp: true,

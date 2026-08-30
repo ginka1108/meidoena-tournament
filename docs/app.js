@@ -384,6 +384,8 @@
   var data = null, curRev = -1, timer = null, view = CFG.defaultView || 'overview';
   var scopeBlock = 'A', scopeRound = 'R1', zoom = 'fit';
   var source = null;      // 'static' | 'gas'
+  var revMismatch = 0;    // rev.json と bracket.json が食い違った回数
+  var mismatchRev = null; // 食い違ったときの rev.json の値
 
   /**
    * データ経路を決める。
@@ -469,8 +471,30 @@
     if (!u) return;
     lastUrl = u;
     getJson(u).then(function (r) {
-      if (Number(r.rev) !== curRev) { toast('更新がありました'); loadFull(); }
-      else setLive('ok', (source === 'gas' ? 'GAS ' : '') + 'rev.' + curRev);
+      var rev = Number(r.rev);
+      if (rev === curRev) {
+        revMismatch = 0; mismatchRev = null;
+        setLive('ok', (source === 'gas' ? 'GAS ' : '') + 'rev.' + curRev);
+        return;
+      }
+      // 本体を取り直しても rev が揃わないなら、取りに行くだけ無駄なので一旦止める。
+      // （配信元のキャッシュが古い版を返している等。放置すると毎回再取得してしまう）
+      // ただし新しいリビジョンが来たら、それは別件なので必ず試す。
+      if (rev !== mismatchRev) { revMismatch = 0; mismatchRev = rev; }
+      if (revMismatch >= 3) {
+        setLive('err', 'rev不一致 ' + curRev + '≠' + rev);
+        return;
+      }
+      loadFull().then(function (d) {
+        if (Number(d.rev) !== rev) {
+          revMismatch++;
+          console.warn('[明戸杯] rev.json は ' + rev + ' ですが bracket.json は ' +
+            d.rev + ' でした（' + revMismatch + '回目）。配信元のキャッシュを確認してください。');
+        } else {
+          revMismatch = 0; mismatchRev = null;
+          if (CFG.showUpdateToast) toast('更新がありました');
+        }
+      }).catch(function (e) { setLive('err', '取得失敗'); });
     }).catch(function (e) { setLive('err', '取得失敗'); });
   }
 
