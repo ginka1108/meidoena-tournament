@@ -49,13 +49,23 @@
       .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
       .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
   }
+  /** 1文字あたりの概算幅。全角=1, 半角=0.55 */
+  function charUnit(c){
+    return (c < 0x100 || (c >= 0xFF61 && c <= 0xFF9F)) ? 0.55 : 1;
+  }
+  /** 文字列の概算幅（文字数換算） */
+  function units(s){
+    s = String(s == null ? '' : s);
+    var w = 0;
+    for (var i=0;i<s.length;i++) w += charUnit(s.charCodeAt(i));
+    return w;
+  }
   /** 全角=1, 半角=0.55 として概算幅で切り詰める */
   function fit(s, maxUnits){
     s = String(s == null ? '' : s);
     var w = 0, out = '';
     for (var i=0;i<s.length;i++){
-      var c = s.charCodeAt(i);
-      var u = (c < 0x100 || (c >= 0xFF61 && c <= 0xFF9F)) ? 0.55 : 1;
+      var u = charUnit(s.charCodeAt(i));
       if (w + u > maxUnits) return out + '…';
       w += u; out += s[i];
     }
@@ -197,11 +207,15 @@
     var o = [];
     var t = data.tournament || {};
     if (A.logoYoko) o.push('<image href="'+A.logoYoko+'" x="'+L.pad+'" y="46" height="104" preserveAspectRatio="xMinYMid meet"/>');
-    o.push(txt(w/2, 96, t.name || '明戸杯', {size:46, weight:900, serif:true, fill:C.white, anchor:'middle', spacing:'.1em'}));
-    var sub = [t.subtitle, t.date].filter(Boolean).join('　／　');
-    o.push(txt(w/2, 130, sub, {size:16, weight:700, fill:C.gold, anchor:'middle', spacing:'.22em'}));
-    o.push(plum(w/2 - 150, 122, 0.9));
-    o.push(plum(w/2 + 150, 122, 0.9));
+    // 大会名のみ。サブタイトルと開催日は出さない
+    // （設定シートの値は bracket.json には入るので、必要になれば復活させられる）
+    var name = t.name || '明戸杯';
+    var nameSize = 46;
+    o.push(txt(w/2, 112, name, {size:nameSize, weight:900, serif:true, fill:C.white, anchor:'middle', spacing:'.1em'}));
+    // 梅は大会名の左右に。名前の長さに合わせて位置をずらす
+    var half = units(name) * nameSize * 0.52 + 42;
+    o.push(plum(w/2 - half, 98, 0.9));
+    o.push(plum(w/2 + half, 98, 0.9));
 
     // ラウンド進行
     var x = w - L.pad, chips = (data.rounds || []).slice().reverse();
