@@ -13,7 +13,7 @@ window.MEIDO_CONFIG = {
    *   例) 'https://<ユーザ名>.github.io/<リポジトリ>/data/'
    *       'https://cdn.jsdelivr.net/gh/<ユーザ名>/<リポジトリ>@main/data/'
    */
-  staticBase: '',
+  staticBase: 'https://ginka1108.github.io/meidoena-tournament/data/',
 
   /**
    * 【フォールバック】GAS ウェブアプリの /exec URL。
@@ -21,7 +21,7 @@ window.MEIDO_CONFIG = {
    *   ※GASは1日あたりのスクリプト実行時間に上限があるので、
    *     配信PCなど少数の端末から見る場合だけにすること（docs/03を参照）。
    */
-  gasUrl: '',
+  gasUrl: 'https://script.google.com/macros/s/AKfycbys1EtIAP7dMm1QnRhqi_FgSCN2I94nBoTUkB8QQvnS-uelTNDZoVNcs_OnUDAwHk_A9A/exec',
 
   /** 参照APIにトークンをかけた場合のみ設定 */
   apiToken: '',
