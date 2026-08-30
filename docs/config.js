@@ -13,7 +13,7 @@ window.MEIDO_CONFIG = {
    *   例) 'https://<ユーザ名>.github.io/<リポジトリ>/data/'
    *       'https://cdn.jsdelivr.net/gh/<ユーザ名>/<リポジトリ>@main/data/'
    */
-  staticBase: 'https://ginka1108.github.io/meidoena-tournament/data/',
+  staticBase: '',
 
   /**
    * 【フォールバック】GAS ウェブアプリの /exec URL。
@@ -26,8 +26,30 @@ window.MEIDO_CONFIG = {
   /** 参照APIにトークンをかけた場合のみ設定 */
   apiToken: '',
 
-  /** rev.json を見に行く間隔(ms)。静的配信なら5秒でも余裕。GAS直なら30秒以上。 */
-  pollRevMs: 15000,
+  /**
+   * どちらの経路でデータを取るか。
+   *   'auto'   … staticBase があればそちら、無ければ gasUrl（既定）
+   *   'static' … 常に staticBase（GitHub Pages など）
+   *   'gas'    … 常に gasUrl（GASを直接読む）
+   *
+   * URLで一時的に上書きできます。config.js を書き換える必要はありません。
+   *   …/index.html?source=gas&poll=3000   ← 抽選中。反映が速い代わりにGASの実行時間を食う
+   *   …/index.html?source=static          ← 通常。何人が見ても無料
+   */
+  source: 'auto',
+
+  /**
+   * rev.json を見に行く間隔(ms)。
+   * rev.json は数十バイトなので、静的配信なら5〜10秒でも負荷になりません。
+   */
+  pollRevMs: 8000,
+
+  /**
+   * GASを直接読むときの間隔(ms)。
+   * 1端末×8時間で、3秒なら約48分ぶんのスクリプト実行時間を使います
+   * （無料アカウントの上限は90分/日）。**配信PCなど少数の端末専用**にしてください。
+   */
+  gasPollMs: 3000,
 
   /** GAS直で CORS に弾かれたとき JSONP に自動フォールバックする */
   allowJsonp: true,

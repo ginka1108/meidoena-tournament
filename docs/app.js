@@ -383,10 +383,36 @@
      ======================================================================== */
   var data = null, curRev = -1, timer = null, view = CFG.defaultView || 'overview';
   var scopeBlock = 'A', scopeRound = 'R1', zoom = 'fit';
+  var source = null;      // 'static' | 'gas'
+
+  /**
+   * データ経路を決める。
+   *   static … GitHub Pages などの静的JSON。何人が見ても無料だが、Pagesのビルド待ちが乗る
+   *   gas    … GASを直接読む。ビルド待ちが無いぶん速いが、実行時間の割当を消費する
+   * URLの ?source= が config.js より優先される。
+   */
+  function resolveSource(){
+    var q = new URLSearchParams(location.search).get('source');
+    if (q === 'gas' && CFG.gasUrl) return 'gas';
+    if (q === 'static' && CFG.staticBase) return 'static';
+    var m = CFG.source || 'auto';
+    if (m === 'gas' && CFG.gasUrl) return 'gas';
+    if (m === 'static' && CFG.staticBase) return 'static';
+    return CFG.staticBase ? 'static' : (CFG.gasUrl ? 'gas' : null);
+  }
+
+  function pollInterval(){
+    var q = Number(new URLSearchParams(location.search).get('poll') || 0);
+    if (q > 0) return Math.max(1000, q);
+    return Math.max(1000, Number(source === 'gas' ? (CFG.gasPollMs || 3000)
+                                                  : (CFG.pollRevMs || 8000)));
+  }
 
   function urlFor(kind){
-    if (CFG.staticBase) return CFG.staticBase + (kind === 'rev' ? 'rev.json' : 'bracket.json');
-    if (CFG.gasUrl) {
+    if (source === 'static') {
+      return CFG.staticBase + (kind === 'rev' ? 'rev.json' : 'bracket.json');
+    }
+    if (source === 'gas') {
       var u = CFG.gasUrl + (CFG.gasUrl.indexOf('?')<0 ? '?' : '&') + 'api=' + (kind==='rev'?'rev':'bracket');
       if (CFG.apiToken) u += '&token=' + encodeURIComponent(CFG.apiToken);
       return u;
@@ -398,7 +424,7 @@
     return fetch(url + (url.indexOf('?')<0?'?':'&') + '_=' + Date.now(), { cache:'no-store' })
       .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
       .catch(function(err){
-        if (!CFG.allowJsonp || !CFG.gasUrl || CFG.staticBase) throw err;
+        if (!CFG.allowJsonp || source !== 'gas') throw err;
         return getJsonp(url);
       });
   }
@@ -422,13 +448,17 @@
     document.getElementById('liveTxt').textContent = text;
   }
 
+  var lastUrl = '';
+
   function loadFull(){
     var u = urlFor('bracket');
     if (!u) return Promise.reject(new Error('config.js に staticBase か gasUrl を設定してください'));
+    lastUrl = u;
     return getJson(u).then(function (d) {
       data = d; curRev = d.rev;
       render();
-      setLive('ok', 'rev.' + d.rev + ' / ' + (d.updatedAt||'').replace('T',' ').slice(11,16));
+      setLive('ok', (source === 'gas' ? 'GAS ' : '') + 'rev.' + d.rev +
+        ' / ' + (d.updatedAt||'').replace('T',' ').slice(11,16));
       return d;
     });
   }
@@ -437,16 +467,16 @@
   function pollRev(){
     var u = urlFor('rev');
     if (!u) return;
+    lastUrl = u;
     getJson(u).then(function (r) {
       if (Number(r.rev) !== curRev) { toast('更新がありました'); loadFull(); }
-      else setLive('ok', 'rev.' + curRev);
+      else setLive('ok', (source === 'gas' ? 'GAS ' : '') + 'rev.' + curRev);
     }).catch(function (e) { setLive('err', '取得失敗'); });
   }
 
   function startPolling(){
     if (timer) clearInterval(timer);
-    var ms = Math.max(3000, Number(CFG.pollRevMs || 15000));
-    timer = setInterval(pollRev, ms);
+    timer = setInterval(pollRev, pollInterval());
     document.addEventListener('visibilitychange', function(){
       if (!document.hidden) pollRev();     // タブに戻ったら即確認
     });
@@ -597,11 +627,27 @@
   function fail(e){
     setLive('err', 'エラー');
     toast(e.message || String(e));
+
+    var hint;
+    if (!CFG.staticBase && !CFG.gasUrl) {
+      hint = 'config.js の staticBase（推奨）か gasUrl のどちらかを設定してください。';
+    } else if (/404/.test(String(e.message))) {
+      hint = 'URLは設定されていますが、その場所にファイルがありません。<br>' +
+             'GitHub Pages の公開フォルダ（多くは <code>/docs</code>）の中に data が置かれているか、<br>' +
+             'GASのスクリプトプロパティ <code>GITHUB_DIR</code> がその場所を指しているか確認してください。';
+    } else {
+      hint = 'URLを直接ブラウザで開いて、JSONが返るか確かめてください。<br>' +
+             'スプレッドシートの「公開ログ」シートに 結果=OK の行があるかも確認してください。';
+    }
+
     document.getElementById('viewport').innerHTML =
-      '<div style="padding:80px;text-align:center;font-family:' + FONT_SANS + '">' +
-      '<p style="font-size:18px">データを取得できませんでした</p>' +
-      '<p style="opacity:.7;font-size:13px">' + esc(e.message||e) + '</p>' +
-      '<p style="opacity:.7;font-size:13px">bracket/config.js の staticBase / gasUrl を確認してください。</p></div>';
+      '<div style="padding:70px 40px;text-align:center;font-family:' + FONT_SANS + ';line-height:1.9">' +
+      '<p style="font-size:19px;margin:0 0 18px">データを取得できませんでした</p>' +
+      '<p style="opacity:.85;font-size:13px;margin:0 0 6px">' + esc(e.message||e) + '</p>' +
+      (lastUrl ? '<p style="opacity:.85;font-size:13px;margin:0 0 18px">取得しようとしたURL:<br>' +
+        '<a href="' + esc(lastUrl) + '" target="_blank" rel="noopener" ' +
+        'style="color:#F2C14E;word-break:break-all">' + esc(lastUrl) + '</a></p>' : '') +
+      '<p style="opacity:.7;font-size:13px">' + hint + '</p></div>';
   }
 
   /* ---------- 起動 -------------------------------------------------------- */
@@ -609,6 +655,11 @@
     initUi();
 
     // ?src=... でローカルJSONを直接読める（デモ・オフライン用）
+    source = resolveSource();
+    // どの経路で動いているかは、取得の成否にかかわらず必ず出しておく
+    console.log('[明戸杯] 経路=' + source + ' / ポーリング=' + pollInterval() + 'ms' +
+      (source ? ' / ' + urlFor('rev') : ''));
+
     var q = new URLSearchParams(location.search);
     if (q.get('view'))  view = q.get('view');
     if (q.get('block')) scopeBlock = q.get('block');
