@@ -13,7 +13,7 @@ window.MEIDO_CONFIG = {
    *   例) 'https://<ユーザ名>.github.io/<リポジトリ>/data/'
    *       'https://cdn.jsdelivr.net/gh/<ユーザ名>/<リポジトリ>@main/data/'
    */
-  staticBase: '',
+  staticBase: 'https://ginka1108.github.io/meidoena-tournament/data',
 
   /**
    * 【フォールバック】GAS ウェブアプリの /exec URL。
