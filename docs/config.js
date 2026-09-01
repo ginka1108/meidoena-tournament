@@ -21,7 +21,7 @@ window.MEIDO_CONFIG = {
    *   ※GASは1日あたりのスクリプト実行時間に上限があるので、
    *     配信PCなど少数の端末から見る場合だけにすること（docs/03を参照）。
    */
-  gasUrl: 'https://script.google.com/macros/s/AKfycbys1EtIAP7dMm1QnRhqi_FgSCN2I94nBoTUkB8QQvnS-uelTNDZoVNcs_OnUDAwHk_A9A/exec',
+  gasUrl: 'https://script.google.com/macros/s/AKfycbzFBwggEyQj0NCunwFMawvT2WlyHHplzfF-hmaMSuJ2N4V0xgMe6AdaxYHa8d0IbTCcwQ/exec',
 
   /** 参照APIにトークンをかけた場合のみ設定 */
   apiToken: '',
