@@ -13,6 +13,7 @@
   var C = {
     crimson:'#D8143F', crimsonD:'#A50E30', crimsonDD:'#7A0722', crimsonL:'#F04A6C',
     rose:'#FFE4EA',                       // 通過者の行。金グラデの代わり
+    goldPale:'#FDF0CE',                   // ゲストの行の下地
     gold:'#F2C14E', goldL:'#F7D785',
     paper:'#FFFFFF', paper2:'#F4F1EA', line:'#DDD6CC',
     ink:'#2E2A28', inkMute:'#8C8580',
@@ -144,13 +145,23 @@
       var base = ry + S.rowH*0.71;
       var adv = s && s.advanced;
 
-      if (adv) o.push(rect(x+3, ry+1, S.w-6, S.rowH-2, {rx:3, fill:C.rose}));
-      else if (i%2) o.push(rect(x+3, ry+1, S.w-6, S.rowH-2, {rx:3, fill:C.paper2}));
+      var isGuest = !!(s && s.kind === 'ゲスト');
+
+      if (adv)          o.push(rect(x+3, ry+1, S.w-6, S.rowH-2, {rx:3, fill:C.rose}));
+      else if (isGuest) o.push(rect(x+3, ry+1, S.w-6, S.rowH-2, {rx:3, fill:C.goldPale}));
+      else if (i%2)     o.push(rect(x+3, ry+1, S.w-6, S.rowH-2, {rx:3, fill:C.paper2}));
+
+      // ゲストの席は金の帯で示す。通過して桃色になっても帯は残す
+      if (isGuest) o.push(rect(x+3, ry+1, 4, S.rowH-2, {rx:2, fill:C.gold}));
 
       var bx = x + 8 + S.rowH*0.33, by = ry + S.rowH/2, br = S.rowH*0.33;
       if (s && s.rank){
         o.push('<circle cx="'+r2(bx)+'" cy="'+r2(by)+'" r="'+r2(br)+'" fill="'+(adv?C.crimson:C.tealD)+'"/>');
         o.push(txt(bx, by + br*0.60, String(s.rank), {size:br*1.28, weight:900, fill:C.white, anchor:'middle'}));
+      } else if (isGuest){
+        // 対局前のゲストは、空の丸ではなく金の印にする
+        o.push('<circle cx="'+r2(bx)+'" cy="'+r2(by)+'" r="'+r2(br)+'" fill="'+C.gold+'"/>');
+        o.push(txt(bx, by + br*0.58, '★', {size:br*1.15, weight:700, fill:C.white, anchor:'middle'}));
       } else {
         o.push('<circle cx="'+r2(bx)+'" cy="'+r2(by)+'" r="'+r2(br-1)+'" fill="none" stroke="'+C.line+'" stroke-width="1.6"/>');
       }
@@ -164,7 +175,9 @@
         continue;
       }
       o.push(txt(nameX, base, fit(s.name, maxUnits), {
-        size:S.name, weight: adv ? 900 : 500, fill: adv ? C.crimsonD : C.ink }));
+        size:S.name,
+        weight: (adv || isGuest) ? 900 : 500,
+        fill: adv ? C.crimsonD : (isGuest ? C.crimsonD : C.ink) }));
 
       if (s.games > 0){
         o.push(txt(x + S.w - 9, base, fmtPt(s.pt), {
